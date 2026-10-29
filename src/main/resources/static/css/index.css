@@ -1,0 +1,13 @@
+* {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: limegreen;
+}
+
+.HomeBackground {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
