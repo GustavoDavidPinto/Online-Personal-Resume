@@ -1,13 +1,57 @@
 * {
-    display: flex;
     margin: 0;
     padding: 0;
-    background-color: limegreen;
+    font-family: Arial, sans-serif;
+    flex-wrap: wrap;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.HomeBackground {
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100vw;
-    height: 100vh;
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: column;
+    background-image: url('../images/HomeBackground.png');
+}
+
+header {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(40, 71, 134);
+    background-color: rgba(255, 255, 255, 0.150);
+    backdrop-filter: blur(5px);
+}
+
+.Navigation {
+
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+    background-color: yellow;
+}
+
+.ContactButton {
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    width: 100px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+.Logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
 }
